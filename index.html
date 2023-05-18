@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram</title>
+    <style>
+        /* Styles for the Instagram page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            background-image: url("instagram_logo.png");
+            background-size: cover;
+        }
+
+        .username {
+            font-weight: bold;
+        }
+
+        .post {
+            margin-bottom: 20px;
+        }
+
+        .post-image {
+            width: 100%;
+        }
+
+        .post-description {
+            margin-top: 10px;
+        }
+
+        .likes {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .comments {
+            margin-top: 10px;
+        }
+
+        .comment {
+            font-weight: bold;
+        }
+
+        .timestamp {
+            font-size: 12px;
+            color: gray;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img style="border-radius: 50%;" src="logo.jpg" alt=""></div>
+            <div class="username">dhruv_upreti</div>
+        </div>
+
+        <div class="post">
+            <img class="post-image" src="post_image1.jpg" alt="Post Image">
+            <div class="post-description">This is a beautiful photo!</div>
+            <div class="likes">10 likes</div>
+            <div class="comments">
+                <div class="comment">User1: Amazing!</div>
+                <div class="comment">User2: Love it!</div>
+                <div class="comment">User3: Great shot!</div>
+            </div>
+            <div class="timestamp">2 hours ago</div>
+        </div>
+
+        <div class="post">
+            <img class="post-image" src="post_image2.jpg" alt="Post Image">
+            <div class="post-description">Throwback to a fun vacation!</div>
+            <div class="likes">15 likes</div>
+            <div class="comments">
+                <div class="comment">User4: Missing this!</div>
+                <div class="comment">User5: Such a great time!</div>
+            </div>
+            <div class="timestamp">1 day ago</div>
+        </div>
+
+        <!-- Add more posts here -->
+
+    </div>
+</body>
+</html>
